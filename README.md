@@ -81,9 +81,14 @@ defact-analysis-260915/
 
 付属のサンプルデータ (`source/sample_defects.csv` または `source/sample_defects.xlsx`) を用いて、DB構築から分析レポート出力までの一連の流れを実行できます。
 
+> [!NOTE]
+> **コマンドの実行形式について**  
+> `pip install -e .` を実行している環境では、`defect-insight <コマンド>` という直接コマンドで実行できます。  
+> インストールを行わずにソースコードから直接実行する場合は、`python -m defect_insight.cli <コマンド>`（`src/defect_insight/cli.py` をモジュール実行）を使用します。本ドキュメントでは両形式に対応しています。
+
 ### ステップ 0: ワークスペース初期化 & ライセンス確認
 ```bash
-# ワークスペース構造を初期化
+# ワークスペース構造を初期化 (defect-insight init でも可)
 python -m defect_insight.cli init --json
 
 # 依存パッケージの商用ライセンス検証 & SPDX 2.3 SBOM 生成
