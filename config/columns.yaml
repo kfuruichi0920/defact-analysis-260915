@@ -1,0 +1,147 @@
+columns:
+- column_id: defect_id
+  display_name: 管理番号
+  physical_name: c_001
+  physical_type: VARCHAR
+  role: record_id
+  capabilities:
+    filterable: true
+    searchable: true
+    aggregatable: false
+    normalizable: false
+    ordered: false
+  description: Unique identifier match and high distinct ratio
+- column_id: title
+  display_name: タイトル
+  physical_name: c_002
+  physical_type: VARCHAR
+  role: short_text
+  capabilities:
+    filterable: true
+    searchable: true
+    aggregatable: false
+    normalizable: false
+    ordered: false
+  description: Title/summary keyword match
+- column_id: detect_phase
+  display_name: 検出工程
+  physical_name: c_003
+  physical_type: VARCHAR
+  role: ordered_category
+  capabilities:
+    filterable: true
+    searchable: false
+    aggregatable: true
+    normalizable: true
+    ordered: true
+  ordered_dictionary_id: dict_detect_phase
+  description: Phase/lifecycle keyword match requiring ordered progression
+- column_id: injection_phase
+  display_name: 混入工程
+  physical_name: c_004
+  physical_type: VARCHAR
+  role: ordered_category
+  capabilities:
+    filterable: true
+    searchable: false
+    aggregatable: true
+    normalizable: true
+    ordered: true
+  ordered_dictionary_id: dict_injection_phase
+  description: Phase/lifecycle keyword match requiring ordered progression
+- column_id: severity
+  display_name: 重要度
+  physical_name: c_005
+  physical_type: VARCHAR
+  role: category
+  capabilities:
+    filterable: true
+    searchable: false
+    aggregatable: true
+    normalizable: true
+    ordered: false
+  description: 'Low distinct cardinality (3 distinct values, ratio: 6.00%)'
+- column_id: defect_type
+  display_name: 不具合分類
+  physical_name: c_006
+  physical_type: VARCHAR
+  role: category
+  capabilities:
+    filterable: true
+    searchable: false
+    aggregatable: true
+    normalizable: true
+    ordered: false
+  description: 'Low distinct cardinality (5 distinct values, ratio: 10.00%)'
+- column_id: cause
+  display_name: 原因
+  physical_name: c_007
+  physical_type: VARCHAR
+  role: long_text
+  capabilities:
+    filterable: false
+    searchable: true
+    aggregatable: false
+    normalizable: false
+    ordered: false
+  description: Free-text narrative keyword match
+- column_id: escape_cause
+  display_name: 流出原因
+  physical_name: c_008
+  physical_type: VARCHAR
+  role: long_text
+  capabilities:
+    filterable: false
+    searchable: true
+    aggregatable: false
+    normalizable: false
+    ordered: false
+  description: Free-text narrative keyword match
+- column_id: countermeasure
+  display_name: 対策
+  physical_name: c_009
+  physical_type: VARCHAR
+  role: long_text
+  capabilities:
+    filterable: false
+    searchable: true
+    aggregatable: false
+    normalizable: false
+    ordered: false
+  description: Free-text narrative keyword match
+- column_id: assignee
+  display_name: 担当者
+  physical_name: c_010
+  physical_type: VARCHAR
+  role: category
+  capabilities:
+    filterable: true
+    searchable: false
+    aggregatable: true
+    normalizable: true
+    ordered: false
+  description: 'Low distinct cardinality (50 distinct values, ratio: 100.00%)'
+- column_id: detect_date
+  display_name: 検出日
+  physical_name: c_011
+  physical_type: VARCHAR
+  role: date
+  capabilities:
+    filterable: true
+    searchable: false
+    aggregatable: true
+    normalizable: false
+    ordered: true
+  description: High date parse ratio (98.00%)
+- column_id: status
+  display_name: 状態
+  physical_name: c_012
+  physical_type: VARCHAR
+  role: status
+  capabilities:
+    filterable: true
+    searchable: false
+    aggregatable: true
+    normalizable: true
+    ordered: false
+  description: Status keyword match and low distinct cardinality

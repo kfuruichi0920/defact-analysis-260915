@@ -1,0 +1,132 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "defect-insight-sbom",
+  "documentNamespace": "https://spdx.org/spdxdocs/defect-insight-0.1.0-2026-09-15T15:59:07Z",
+  "creationInfo": {
+    "created": "2026-09-15T15:59:07Z",
+    "creators": [
+      "Tool: defect-insight-0.1.0",
+      "Organization: AI Agent Project"
+    ]
+  },
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-defect-insight",
+      "name": "defect-insight",
+      "versionInfo": "0.1.0",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "Copyright 2026 AI Agent & Engineering Team"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-duckdb",
+      "name": "duckdb",
+      "versionInfo": "1.5.5",
+      "downloadLocation": "https://duckdb.org/",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/duckdb@1.5.5"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-openpyxl",
+      "name": "openpyxl",
+      "versionInfo": "3.1.5",
+      "downloadLocation": "https://openpyxl.readthedocs.io/",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/openpyxl@3.1.5"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-et-xmlfile",
+      "name": "et-xmlfile",
+      "versionInfo": "2.0.0",
+      "downloadLocation": "https://foss.heptapod.net/openpyxl/et_xmlfile",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/et-xmlfile@2.0.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-pyyaml",
+      "name": "pyyaml",
+      "versionInfo": "6.0.3",
+      "downloadLocation": "https://pyyaml.org/",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/pyyaml@6.0.3"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-pytest",
+      "name": "pytest",
+      "versionInfo": "9.1.1",
+      "downloadLocation": "https://docs.pytest.org/",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/pytest@9.1.1"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-defect-insight",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-duckdb"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-defect-insight",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-openpyxl"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-defect-insight",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-et-xmlfile"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-defect-insight",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-pyyaml"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-defect-insight",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-pytest"
+    }
+  ]
+}

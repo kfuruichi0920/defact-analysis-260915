@@ -1,0 +1,13 @@
+column_id,display_name,physical_name,role,physical_type,filterable,searchable,aggregatable,normalizable,ordered
+defect_id,管理番号,c_001,record_id,VARCHAR,True,True,False,False,False
+title,タイトル,c_002,short_text,VARCHAR,True,True,False,False,False
+detect_phase,検出工程,c_003,ordered_category,VARCHAR,True,False,True,True,True
+injection_phase,混入工程,c_004,ordered_category,VARCHAR,True,False,True,True,True
+severity,重要度,c_005,category,VARCHAR,True,False,True,True,False
+defect_type,不具合分類,c_006,category,VARCHAR,True,False,True,True,False
+cause,原因,c_007,long_text,VARCHAR,False,True,False,False,False
+escape_cause,流出原因,c_008,long_text,VARCHAR,False,True,False,False,False
+countermeasure,対策,c_009,long_text,VARCHAR,False,True,False,False,False
+assignee,担当者,c_010,category,VARCHAR,True,False,True,True,False
+detect_date,検出日,c_011,date,VARCHAR,True,False,True,False,True
+status,状態,c_012,status,VARCHAR,True,False,True,True,False

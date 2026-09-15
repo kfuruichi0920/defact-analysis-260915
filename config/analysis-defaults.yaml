@@ -1,0 +1,9 @@
+default_mode: filtered_analysis
+evidence_level: detailed
+max_refinements: 3
+context_budget_chars: 12000
+token_batch_margin: 0.2
+data_egress:
+  external_llm_api: false
+  use_current_agent: true
+  minimize_columns: true

@@ -1,0 +1,74 @@
+column_id,raw_value,canonical_id,canonical_label,ordinal,status,confidence,source,reason
+detect_phase,UT,phase_unit_test,単体試験,40,accepted,high,dictionary_match,Matched known dictionary alias for '単体試験'
+detect_phase,結合試験,phase_integration,結合試験,50,accepted,high,dictionary_match,Matched known dictionary alias for '結合試験'
+detect_phase,ST,phase_system,システム試験,60,accepted,high,dictionary_match,Matched known dictionary alias for 'システム試験'
+detect_phase,IT,phase_integration,結合試験,50,accepted,high,dictionary_match,Matched known dictionary alias for '結合試験'
+detect_phase,単体,phase_unit_test,単体試験,40,accepted,high,dictionary_match,Matched known dictionary alias for '単体試験'
+detect_phase,単体試験,phase_unit_test,単体試験,40,accepted,high,dictionary_match,Matched known dictionary alias for '単体試験'
+detect_phase,総合,phase_system,システム試験,60,accepted,high,dictionary_match,Matched known dictionary alias for 'システム試験'
+detect_phase,システム試験,phase_system,システム試験,60,accepted,high,dictionary_match,Matched known dictionary alias for 'システム試験'
+detect_phase,結合,phase_integration,結合試験,50,accepted,high,dictionary_match,Matched known dictionary alias for '結合試験'
+injection_phase,詳細設計,phase_detail_design,詳細設計,30,accepted,high,dictionary_match,Matched known dictionary alias for '詳細設計'
+injection_phase,コーディング,phase_coding,実装・単体作成,35,accepted,high,dictionary_match,Matched known dictionary alias for '実装・単体作成'
+injection_phase,実装,phase_coding,実装・単体作成,35,accepted,high,dictionary_match,Matched known dictionary alias for '実装・単体作成'
+injection_phase,基本設計,phase_basic_design,基本設計,20,accepted,high,dictionary_match,Matched known dictionary alias for '基本設計'
+severity,高,val_高,高,,accepted,low,unknown_value,Unmatched distinct category value
+severity,低,val_低,低,,accepted,low,unknown_value,Unmatched distinct category value
+severity,中,val_中,中,,accepted,low,unknown_value,Unmatched distinct category value
+defect_type,機能不全,val_機能不全,機能不全,,accepted,low,unknown_value,Unmatched distinct category value
+defect_type,タイミング/排他,val_タイミング/排他,タイミング/排他,,accepted,low,unknown_value,Unmatched distinct category value
+defect_type,境界値,val_境界値,境界値,,accepted,low,unknown_value,Unmatched distinct category value
+defect_type,UI不備,val_ui不備,UI不備,,accepted,low,unknown_value,Unmatched distinct category value
+defect_type,メモリリーク,val_メモリリーク,メモリリーク,,accepted,low,unknown_value,Unmatched distinct category value
+assignee,佐藤,val_佐藤,佐藤,,accepted,low,unknown_value,Unmatched distinct category value
+assignee,鈴木,val_鈴木,鈴木,,accepted,low,unknown_value,Unmatched distinct category value
+assignee,高橋,val_高橋,高橋,,accepted,low,unknown_value,Unmatched distinct category value
+assignee,田中,val_田中,田中,,accepted,low,unknown_value,Unmatched distinct category value
+assignee,渡辺,val_渡辺,渡辺,,accepted,low,unknown_value,Unmatched distinct category value
+assignee,伊藤,val_伊藤,伊藤,,accepted,low,unknown_value,Unmatched distinct category value
+assignee,山本,val_山本,山本,,accepted,low,unknown_value,Unmatched distinct category value
+assignee,中村,val_中村,中村,,accepted,low,unknown_value,Unmatched distinct category value
+assignee,小林,val_小林,小林,,accepted,low,unknown_value,Unmatched distinct category value
+assignee,加藤,val_加藤,加藤,,accepted,low,unknown_value,Unmatched distinct category value
+assignee,吉田,val_吉田,吉田,,accepted,low,unknown_value,Unmatched distinct category value
+assignee,山田,val_山田,山田,,accepted,low,unknown_value,Unmatched distinct category value
+assignee,佐々木,val_佐々木,佐々木,,accepted,low,unknown_value,Unmatched distinct category value
+assignee,山口,val_山口,山口,,accepted,low,unknown_value,Unmatched distinct category value
+assignee,松本,val_松本,松本,,accepted,low,unknown_value,Unmatched distinct category value
+assignee,井上,val_井上,井上,,accepted,low,unknown_value,Unmatched distinct category value
+assignee,木村,val_木村,木村,,accepted,low,unknown_value,Unmatched distinct category value
+assignee,林,val_林,林,,accepted,low,unknown_value,Unmatched distinct category value
+assignee,清水,val_清水,清水,,accepted,low,unknown_value,Unmatched distinct category value
+assignee,山崎,val_山崎,山崎,,accepted,low,unknown_value,Unmatched distinct category value
+assignee,森,val_森,森,,accepted,low,unknown_value,Unmatched distinct category value
+assignee,池田,val_池田,池田,,accepted,low,unknown_value,Unmatched distinct category value
+assignee,橋本,val_橋本,橋本,,accepted,low,unknown_value,Unmatched distinct category value
+assignee,阿部,val_阿部,阿部,,accepted,low,unknown_value,Unmatched distinct category value
+assignee,石川,val_石川,石川,,accepted,low,unknown_value,Unmatched distinct category value
+assignee,中島,val_中島,中島,,accepted,low,unknown_value,Unmatched distinct category value
+assignee,前田,val_前田,前田,,accepted,low,unknown_value,Unmatched distinct category value
+assignee,藤田,val_藤田,藤田,,accepted,low,unknown_value,Unmatched distinct category value
+assignee,小川,val_小川,小川,,accepted,low,unknown_value,Unmatched distinct category value
+assignee,後藤,val_後藤,後藤,,accepted,low,unknown_value,Unmatched distinct category value
+assignee,岡田,val_岡田,岡田,,accepted,low,unknown_value,Unmatched distinct category value
+assignee,長谷川,val_長谷川,長谷川,,accepted,low,unknown_value,Unmatched distinct category value
+assignee,村上,val_村上,村上,,accepted,low,unknown_value,Unmatched distinct category value
+assignee,近藤,val_近藤,近藤,,accepted,low,unknown_value,Unmatched distinct category value
+assignee,石井,val_石井,石井,,accepted,low,unknown_value,Unmatched distinct category value
+assignee,斉藤,val_斉藤,斉藤,,accepted,low,unknown_value,Unmatched distinct category value
+assignee,ReadTimeout=5sを設定しフォールバック画面を表示するよう修正。,val_readtimeout=5sを設定しフォールバック画面を表示するよう修正。,ReadTimeout=5sを設定しフォールバック画面を表示するよう修正。,,accepted,low,unknown_value,Unmatched distinct category value
+assignee,遠藤,val_遠藤,遠藤,,accepted,low,unknown_value,Unmatched distinct category value
+assignee,青木,val_青木,青木,,accepted,low,unknown_value,Unmatched distinct category value
+assignee,藤井,val_藤井,藤井,,accepted,low,unknown_value,Unmatched distinct category value
+assignee,西村,val_西村,西村,,accepted,low,unknown_value,Unmatched distinct category value
+assignee,福田,val_福田,福田,,accepted,low,unknown_value,Unmatched distinct category value
+assignee,太田,val_太田,太田,,accepted,low,unknown_value,Unmatched distinct category value
+assignee,三浦,val_三浦,三浦,,accepted,low,unknown_value,Unmatched distinct category value
+assignee,岡本,val_岡本,岡本,,accepted,low,unknown_value,Unmatched distinct category value
+assignee,松田,val_松田,松田,,accepted,low,unknown_value,Unmatched distinct category value
+assignee,中川,val_中川,中川,,accepted,low,unknown_value,Unmatched distinct category value
+assignee,原田,val_原田,原田,,accepted,low,unknown_value,Unmatched distinct category value
+assignee,中野,val_中野,中野,,accepted,low,unknown_value,Unmatched distinct category value
+assignee,竹内,val_竹内,竹内,,accepted,low,unknown_value,Unmatched distinct category value
+status,完了,val_完了,完了,,accepted,low,unknown_value,Unmatched distinct category value
+status,2025-04-18,val_2025-04-18,2025-04-18,,accepted,low,unknown_value,Unmatched distinct category value

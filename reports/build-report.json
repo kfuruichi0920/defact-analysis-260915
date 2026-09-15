@@ -1,0 +1,52 @@
+{
+  "dataset_name": "golden_defects.csv",
+  "source_hash": "3ed329e462045981d941ee876eae1a73f161a2b53374dd377762a69e6ebbe687",
+  "total_records": 50,
+  "total_columns": 12,
+  "provenance": {
+    "timestamp_utc": "2026-09-15T15:59:07.359467+00:00",
+    "python_version": "3.12.8",
+    "platform": "Windows-11-10.0.26340-SP0",
+    "os": "win32",
+    "dependencies": {
+      "duckdb": "1.5.5",
+      "openpyxl": "3.1.5",
+      "pyyaml": "6.0.3",
+      "pytest": "9.1.1"
+    },
+    "app_version": "0.1.0",
+    "query_plan_schema_version": "1.0.0"
+  },
+  "validation": {
+    "is_valid": true,
+    "error_count": 0,
+    "warning_count": 0,
+    "info_count": 2,
+    "findings": [
+      {
+        "severity": "INFO",
+        "category": "fts",
+        "message": "FTS index verified: 50 records cleanly indexed.",
+        "details": {}
+      },
+      {
+        "severity": "INFO",
+        "category": "structure",
+        "message": "Total records verified: 50, total columns: 12",
+        "details": {}
+      }
+    ]
+  },
+  "fts": {
+    "status": "success",
+    "db_path": "C:\\git\\agy\\defact-analysis-260915\\data\\defects-fts.sqlite",
+    "indexed_columns": [
+      "title",
+      "cause",
+      "escape_cause",
+      "countermeasure"
+    ],
+    "total_indexed_records": 50
+  },
+  "built_at": "2026-09-15 15:59:07 UTC"
+}

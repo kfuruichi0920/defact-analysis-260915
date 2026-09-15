@@ -1,0 +1,543 @@
+maps:
+  detect_phase:
+    column_id: detect_phase
+    mappings:
+    - raw_value: UT
+      canonical_id: phase_unit_test
+      canonical_label: 単体試験
+      confidence: high
+      source: dictionary_match
+      reason: Matched known dictionary alias for '単体試験'
+      status: accepted
+      ordinal: 40
+    - raw_value: 結合試験
+      canonical_id: phase_integration
+      canonical_label: 結合試験
+      confidence: high
+      source: dictionary_match
+      reason: Matched known dictionary alias for '結合試験'
+      status: accepted
+      ordinal: 50
+    - raw_value: ST
+      canonical_id: phase_system
+      canonical_label: システム試験
+      confidence: high
+      source: dictionary_match
+      reason: Matched known dictionary alias for 'システム試験'
+      status: accepted
+      ordinal: 60
+    - raw_value: IT
+      canonical_id: phase_integration
+      canonical_label: 結合試験
+      confidence: high
+      source: dictionary_match
+      reason: Matched known dictionary alias for '結合試験'
+      status: accepted
+      ordinal: 50
+    - raw_value: 単体
+      canonical_id: phase_unit_test
+      canonical_label: 単体試験
+      confidence: high
+      source: dictionary_match
+      reason: Matched known dictionary alias for '単体試験'
+      status: accepted
+      ordinal: 40
+    - raw_value: 単体試験
+      canonical_id: phase_unit_test
+      canonical_label: 単体試験
+      confidence: high
+      source: dictionary_match
+      reason: Matched known dictionary alias for '単体試験'
+      status: accepted
+      ordinal: 40
+    - raw_value: 総合
+      canonical_id: phase_system
+      canonical_label: システム試験
+      confidence: high
+      source: dictionary_match
+      reason: Matched known dictionary alias for 'システム試験'
+      status: accepted
+      ordinal: 60
+    - raw_value: システム試験
+      canonical_id: phase_system
+      canonical_label: システム試験
+      confidence: high
+      source: dictionary_match
+      reason: Matched known dictionary alias for 'システム試験'
+      status: accepted
+      ordinal: 60
+    - raw_value: 結合
+      canonical_id: phase_integration
+      canonical_label: 結合試験
+      confidence: high
+      source: dictionary_match
+      reason: Matched known dictionary alias for '結合試験'
+      status: accepted
+      ordinal: 50
+  injection_phase:
+    column_id: injection_phase
+    mappings:
+    - raw_value: 詳細設計
+      canonical_id: phase_detail_design
+      canonical_label: 詳細設計
+      confidence: high
+      source: dictionary_match
+      reason: Matched known dictionary alias for '詳細設計'
+      status: accepted
+      ordinal: 30
+    - raw_value: コーディング
+      canonical_id: phase_coding
+      canonical_label: 実装・単体作成
+      confidence: high
+      source: dictionary_match
+      reason: Matched known dictionary alias for '実装・単体作成'
+      status: accepted
+      ordinal: 35
+    - raw_value: 実装
+      canonical_id: phase_coding
+      canonical_label: 実装・単体作成
+      confidence: high
+      source: dictionary_match
+      reason: Matched known dictionary alias for '実装・単体作成'
+      status: accepted
+      ordinal: 35
+    - raw_value: 基本設計
+      canonical_id: phase_basic_design
+      canonical_label: 基本設計
+      confidence: high
+      source: dictionary_match
+      reason: Matched known dictionary alias for '基本設計'
+      status: accepted
+      ordinal: 20
+  severity:
+    column_id: severity
+    mappings:
+    - raw_value: 高
+      canonical_id: val_高
+      canonical_label: 高
+      confidence: low
+      source: unknown_value
+      reason: Unmatched distinct category value
+      status: accepted
+    - raw_value: 低
+      canonical_id: val_低
+      canonical_label: 低
+      confidence: low
+      source: unknown_value
+      reason: Unmatched distinct category value
+      status: accepted
+    - raw_value: 中
+      canonical_id: val_中
+      canonical_label: 中
+      confidence: low
+      source: unknown_value
+      reason: Unmatched distinct category value
+      status: accepted
+  defect_type:
+    column_id: defect_type
+    mappings:
+    - raw_value: 機能不全
+      canonical_id: val_機能不全
+      canonical_label: 機能不全
+      confidence: low
+      source: unknown_value
+      reason: Unmatched distinct category value
+      status: accepted
+    - raw_value: タイミング/排他
+      canonical_id: val_タイミング/排他
+      canonical_label: タイミング/排他
+      confidence: low
+      source: unknown_value
+      reason: Unmatched distinct category value
+      status: accepted
+    - raw_value: 境界値
+      canonical_id: val_境界値
+      canonical_label: 境界値
+      confidence: low
+      source: unknown_value
+      reason: Unmatched distinct category value
+      status: accepted
+    - raw_value: UI不備
+      canonical_id: val_ui不備
+      canonical_label: UI不備
+      confidence: low
+      source: unknown_value
+      reason: Unmatched distinct category value
+      status: accepted
+    - raw_value: メモリリーク
+      canonical_id: val_メモリリーク
+      canonical_label: メモリリーク
+      confidence: low
+      source: unknown_value
+      reason: Unmatched distinct category value
+      status: accepted
+  assignee:
+    column_id: assignee
+    mappings:
+    - raw_value: 佐藤
+      canonical_id: val_佐藤
+      canonical_label: 佐藤
+      confidence: low
+      source: unknown_value
+      reason: Unmatched distinct category value
+      status: accepted
+    - raw_value: 鈴木
+      canonical_id: val_鈴木
+      canonical_label: 鈴木
+      confidence: low
+      source: unknown_value
+      reason: Unmatched distinct category value
+      status: accepted
+    - raw_value: 高橋
+      canonical_id: val_高橋
+      canonical_label: 高橋
+      confidence: low
+      source: unknown_value
+      reason: Unmatched distinct category value
+      status: accepted
+    - raw_value: 田中
+      canonical_id: val_田中
+      canonical_label: 田中
+      confidence: low
+      source: unknown_value
+      reason: Unmatched distinct category value
+      status: accepted
+    - raw_value: 渡辺
+      canonical_id: val_渡辺
+      canonical_label: 渡辺
+      confidence: low
+      source: unknown_value
+      reason: Unmatched distinct category value
+      status: accepted
+    - raw_value: 伊藤
+      canonical_id: val_伊藤
+      canonical_label: 伊藤
+      confidence: low
+      source: unknown_value
+      reason: Unmatched distinct category value
+      status: accepted
+    - raw_value: 山本
+      canonical_id: val_山本
+      canonical_label: 山本
+      confidence: low
+      source: unknown_value
+      reason: Unmatched distinct category value
+      status: accepted
+    - raw_value: 中村
+      canonical_id: val_中村
+      canonical_label: 中村
+      confidence: low
+      source: unknown_value
+      reason: Unmatched distinct category value
+      status: accepted
+    - raw_value: 小林
+      canonical_id: val_小林
+      canonical_label: 小林
+      confidence: low
+      source: unknown_value
+      reason: Unmatched distinct category value
+      status: accepted
+    - raw_value: 加藤
+      canonical_id: val_加藤
+      canonical_label: 加藤
+      confidence: low
+      source: unknown_value
+      reason: Unmatched distinct category value
+      status: accepted
+    - raw_value: 吉田
+      canonical_id: val_吉田
+      canonical_label: 吉田
+      confidence: low
+      source: unknown_value
+      reason: Unmatched distinct category value
+      status: accepted
+    - raw_value: 山田
+      canonical_id: val_山田
+      canonical_label: 山田
+      confidence: low
+      source: unknown_value
+      reason: Unmatched distinct category value
+      status: accepted
+    - raw_value: 佐々木
+      canonical_id: val_佐々木
+      canonical_label: 佐々木
+      confidence: low
+      source: unknown_value
+      reason: Unmatched distinct category value
+      status: accepted
+    - raw_value: 山口
+      canonical_id: val_山口
+      canonical_label: 山口
+      confidence: low
+      source: unknown_value
+      reason: Unmatched distinct category value
+      status: accepted
+    - raw_value: 松本
+      canonical_id: val_松本
+      canonical_label: 松本
+      confidence: low
+      source: unknown_value
+      reason: Unmatched distinct category value
+      status: accepted
+    - raw_value: 井上
+      canonical_id: val_井上
+      canonical_label: 井上
+      confidence: low
+      source: unknown_value
+      reason: Unmatched distinct category value
+      status: accepted
+    - raw_value: 木村
+      canonical_id: val_木村
+      canonical_label: 木村
+      confidence: low
+      source: unknown_value
+      reason: Unmatched distinct category value
+      status: accepted
+    - raw_value: 林
+      canonical_id: val_林
+      canonical_label: 林
+      confidence: low
+      source: unknown_value
+      reason: Unmatched distinct category value
+      status: accepted
+    - raw_value: 清水
+      canonical_id: val_清水
+      canonical_label: 清水
+      confidence: low
+      source: unknown_value
+      reason: Unmatched distinct category value
+      status: accepted
+    - raw_value: 山崎
+      canonical_id: val_山崎
+      canonical_label: 山崎
+      confidence: low
+      source: unknown_value
+      reason: Unmatched distinct category value
+      status: accepted
+    - raw_value: 森
+      canonical_id: val_森
+      canonical_label: 森
+      confidence: low
+      source: unknown_value
+      reason: Unmatched distinct category value
+      status: accepted
+    - raw_value: 池田
+      canonical_id: val_池田
+      canonical_label: 池田
+      confidence: low
+      source: unknown_value
+      reason: Unmatched distinct category value
+      status: accepted
+    - raw_value: 橋本
+      canonical_id: val_橋本
+      canonical_label: 橋本
+      confidence: low
+      source: unknown_value
+      reason: Unmatched distinct category value
+      status: accepted
+    - raw_value: 阿部
+      canonical_id: val_阿部
+      canonical_label: 阿部
+      confidence: low
+      source: unknown_value
+      reason: Unmatched distinct category value
+      status: accepted
+    - raw_value: 石川
+      canonical_id: val_石川
+      canonical_label: 石川
+      confidence: low
+      source: unknown_value
+      reason: Unmatched distinct category value
+      status: accepted
+    - raw_value: 中島
+      canonical_id: val_中島
+      canonical_label: 中島
+      confidence: low
+      source: unknown_value
+      reason: Unmatched distinct category value
+      status: accepted
+    - raw_value: 前田
+      canonical_id: val_前田
+      canonical_label: 前田
+      confidence: low
+      source: unknown_value
+      reason: Unmatched distinct category value
+      status: accepted
+    - raw_value: 藤田
+      canonical_id: val_藤田
+      canonical_label: 藤田
+      confidence: low
+      source: unknown_value
+      reason: Unmatched distinct category value
+      status: accepted
+    - raw_value: 小川
+      canonical_id: val_小川
+      canonical_label: 小川
+      confidence: low
+      source: unknown_value
+      reason: Unmatched distinct category value
+      status: accepted
+    - raw_value: 後藤
+      canonical_id: val_後藤
+      canonical_label: 後藤
+      confidence: low
+      source: unknown_value
+      reason: Unmatched distinct category value
+      status: accepted
+    - raw_value: 岡田
+      canonical_id: val_岡田
+      canonical_label: 岡田
+      confidence: low
+      source: unknown_value
+      reason: Unmatched distinct category value
+      status: accepted
+    - raw_value: 長谷川
+      canonical_id: val_長谷川
+      canonical_label: 長谷川
+      confidence: low
+      source: unknown_value
+      reason: Unmatched distinct category value
+      status: accepted
+    - raw_value: 村上
+      canonical_id: val_村上
+      canonical_label: 村上
+      confidence: low
+      source: unknown_value
+      reason: Unmatched distinct category value
+      status: accepted
+    - raw_value: 近藤
+      canonical_id: val_近藤
+      canonical_label: 近藤
+      confidence: low
+      source: unknown_value
+      reason: Unmatched distinct category value
+      status: accepted
+    - raw_value: 石井
+      canonical_id: val_石井
+      canonical_label: 石井
+      confidence: low
+      source: unknown_value
+      reason: Unmatched distinct category value
+      status: accepted
+    - raw_value: 斉藤
+      canonical_id: val_斉藤
+      canonical_label: 斉藤
+      confidence: low
+      source: unknown_value
+      reason: Unmatched distinct category value
+      status: accepted
+    - raw_value: ReadTimeout=5sを設定しフォールバック画面を表示するよう修正。
+      canonical_id: val_readtimeout=5sを設定しフォールバック画面を表示するよう修正。
+      canonical_label: ReadTimeout=5sを設定しフォールバック画面を表示するよう修正。
+      confidence: low
+      source: unknown_value
+      reason: Unmatched distinct category value
+      status: accepted
+    - raw_value: 遠藤
+      canonical_id: val_遠藤
+      canonical_label: 遠藤
+      confidence: low
+      source: unknown_value
+      reason: Unmatched distinct category value
+      status: accepted
+    - raw_value: 青木
+      canonical_id: val_青木
+      canonical_label: 青木
+      confidence: low
+      source: unknown_value
+      reason: Unmatched distinct category value
+      status: accepted
+    - raw_value: 藤井
+      canonical_id: val_藤井
+      canonical_label: 藤井
+      confidence: low
+      source: unknown_value
+      reason: Unmatched distinct category value
+      status: accepted
+    - raw_value: 西村
+      canonical_id: val_西村
+      canonical_label: 西村
+      confidence: low
+      source: unknown_value
+      reason: Unmatched distinct category value
+      status: accepted
+    - raw_value: 福田
+      canonical_id: val_福田
+      canonical_label: 福田
+      confidence: low
+      source: unknown_value
+      reason: Unmatched distinct category value
+      status: accepted
+    - raw_value: 太田
+      canonical_id: val_太田
+      canonical_label: 太田
+      confidence: low
+      source: unknown_value
+      reason: Unmatched distinct category value
+      status: accepted
+    - raw_value: 三浦
+      canonical_id: val_三浦
+      canonical_label: 三浦
+      confidence: low
+      source: unknown_value
+      reason: Unmatched distinct category value
+      status: accepted
+    - raw_value: 岡本
+      canonical_id: val_岡本
+      canonical_label: 岡本
+      confidence: low
+      source: unknown_value
+      reason: Unmatched distinct category value
+      status: accepted
+    - raw_value: 松田
+      canonical_id: val_松田
+      canonical_label: 松田
+      confidence: low
+      source: unknown_value
+      reason: Unmatched distinct category value
+      status: accepted
+    - raw_value: 中川
+      canonical_id: val_中川
+      canonical_label: 中川
+      confidence: low
+      source: unknown_value
+      reason: Unmatched distinct category value
+      status: accepted
+    - raw_value: 原田
+      canonical_id: val_原田
+      canonical_label: 原田
+      confidence: low
+      source: unknown_value
+      reason: Unmatched distinct category value
+      status: accepted
+    - raw_value: 中野
+      canonical_id: val_中野
+      canonical_label: 中野
+      confidence: low
+      source: unknown_value
+      reason: Unmatched distinct category value
+      status: accepted
+    - raw_value: 竹内
+      canonical_id: val_竹内
+      canonical_label: 竹内
+      confidence: low
+      source: unknown_value
+      reason: Unmatched distinct category value
+      status: accepted
+  status:
+    column_id: status
+    mappings:
+    - raw_value: 完了
+      canonical_id: val_完了
+      canonical_label: 完了
+      confidence: low
+      source: unknown_value
+      reason: Unmatched distinct category value
+      status: accepted
+    - raw_value: '2025-04-18'
+      canonical_id: val_2025-04-18
+      canonical_label: '2025-04-18'
+      confidence: low
+      source: unknown_value
+      reason: Unmatched distinct category value
+      status: accepted

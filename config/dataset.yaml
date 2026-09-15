@@ -1,0 +1,8 @@
+source_file: golden_defects.csv
+source_hash: 84e2144a0374c8ab9ae68a8e7650e6dc03a6b335e1d40c80aa7de6815be05330
+sheet_name: null
+header_row: 1
+id_column: 管理番号
+total_records: 50
+total_columns: 12
+proposed_at: '2026-09-15T15:57:40.198280+00:00'
